@@ -7,6 +7,9 @@ use PHPUnit\Framework\TestCase;
 final class CashMachineTest extends TestCase
 {
 
+
+
+
     public function testCashMachineFileExists(): void
     {
         $this->assertFileExists(__DIR__ . '/../src/CashMachine.php', "You should have a /src/CashMachine.php file");
